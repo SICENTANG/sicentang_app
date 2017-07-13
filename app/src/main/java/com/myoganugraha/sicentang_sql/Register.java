@@ -43,12 +43,13 @@ public class Register extends AppCompatActivity {
     private LinearLayout linearLayout;
     private AnimationDrawable animationDrawable;
     private EditText inputFullName, inputEmail, inputPassword, inputPassword1;
-    private Button btnRegister, btnLinkToLogin ;
+    private Button btnRegister, btnLinkToLogin, image ;
     private ProgressDialog pDialog;
     private SessionManager session;
     private SQLiteHandler db;
     private static final String TAG = Register.class.getSimpleName();
     boolean doubleBackToExitPressedOnce = false;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

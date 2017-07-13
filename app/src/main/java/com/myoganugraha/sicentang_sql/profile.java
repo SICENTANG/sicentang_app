@@ -12,6 +12,7 @@ import android.widget.TextView;
 import com.myoganugraha.sicentang_sql.helper.SQLiteHandler;
 import com.myoganugraha.sicentang_sql.helper.SessionManager;
 
+import java.text.SimpleDateFormat;
 import java.util.HashMap;
 
 
@@ -92,10 +93,12 @@ public class profile extends Fragment implements View.OnClickListener {
         String email = user.get("email");
         String created_at = user.get("created_at");
 
+
+
         // Displaying the user details on the screen
         txtName.setText(name);
         txtEmail.setText(email);
-        txtJoin.setText("member since : " + created_at);
+        txtJoin.setText("member since : " + created_at.substring(0,10));
 
         return rootview;
     }

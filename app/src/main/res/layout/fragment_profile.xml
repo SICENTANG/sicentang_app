@@ -47,7 +47,7 @@
             android:id="@+id/joinDate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/joinDate"
+            android:textColor="@color/lbl_name"
             android:textSize="13sp"/>
 
         <Button
