@@ -19,6 +19,7 @@ public class profile extends Fragment implements View.OnClickListener {
 
     private TextView txtName;
     private TextView txtEmail;
+    private TextView txtJoin;
     private Button btnLogout;
 
     private SQLiteHandler db;
@@ -80,6 +81,7 @@ public class profile extends Fragment implements View.OnClickListener {
 
         txtName = (TextView) rootview.findViewById(R.id.name);
         txtEmail = (TextView) rootview.findViewById(R.id.email);
+        txtJoin = (TextView) rootview.findViewById(R.id.joinDate);
         btnLogout = (Button) rootview.findViewById(R.id.btn_logout);
         btnLogout.setOnClickListener(this);
 
@@ -88,10 +90,12 @@ public class profile extends Fragment implements View.OnClickListener {
 
         String name = user.get("name");
         String email = user.get("email");
+        String created_at = user.get("created_at");
 
         // Displaying the user details on the screen
         txtName.setText(name);
         txtEmail.setText(email);
+        txtJoin.setText("member since : " + created_at);
 
         return rootview;
     }

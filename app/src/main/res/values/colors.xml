@@ -19,6 +19,7 @@
     <color name="btm_navbar_ic">#f56861</color>
     <color name="btm_navbar">#fdfcfb</color>
     <color name="colorHint">#546E7A</color>
+    <color name="joinDate">#999999</color>
 
     <!-- 1st Gradient color -->
     <color name="colorPurple_A400">#cb81df</color>
