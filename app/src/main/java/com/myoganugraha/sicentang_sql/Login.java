@@ -172,7 +172,7 @@ public class Login extends AppCompatActivity {
                         // Inserting row in users table
                         db.addUser(name, email, uid, created_at);
 
-                        // Launch main activity
+                        // Launch main activit
                         Intent intent = new Intent(Login.this,
                                 MainActivity.class);
                         startActivity(intent);
