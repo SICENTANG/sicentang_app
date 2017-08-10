@@ -10,8 +10,8 @@
         android:layout_height="wrap_content"
         android:src="@drawable/itk"
         android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/textView"
-        android:layout_marginStart="15dp" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
 
     <android.support.v4.view.ViewPager
         android:id="@+id/view_pager"
@@ -22,15 +22,45 @@
         android:layout_alignParentStart="true" />
 
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Fragment Home"
-        android:textSize="30sp"
-        android:id="@+id/textView"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="92dp" />
+
+    <Button
+        android:id="@+id/btnHilang"
+        android:layout_width="fill_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="50sp"
+        android:text="@string/btn_hilang"
+        android:textColor="@color/btm_navbar_ic"
+        android:background="@drawable/border_button_home"
+        android:layout_below="@+id/view_pager"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="40sp"/>
+
+    <Button
+        android:id="@+id/btnTemukan"
+        android:layout_marginTop="15sp"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="40sp"
+        android:layout_width="fill_parent"
+        android:layout_height="40sp"
+        android:text="@string/btn_temukan"
+        android:textColor="@color/btm_navbar_ic"
+        android:background="@drawable/border_button_home"
+        android:layout_below="@+id/btnHilang"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btnLaporanLain"
+        android:layout_marginTop="15sp"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="40sp"
+        android:layout_width="fill_parent"
+        android:layout_height="40sp"
+        android:text="@string/btn_laporkanLain"
+        android:textColor="@color/btm_navbar_ic"
+        android:background="@drawable/border_button_home"
+        android:layout_below="@+id/btnTemukan"
+        android:layout_alignParentStart="true" />
 
 
 </RelativeLayout>

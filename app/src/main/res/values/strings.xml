@@ -7,6 +7,9 @@
     <string name="login">Login Disini</string>
     <string name="btn_login">LOGIN</string>
     <string name="btn_register">REGISTER</string>
+    <string name="btn_hilang">KEHILANGAN</string>
+    <string name="btn_temukan">MENEMUKAN</string>
+    <string name="btn_laporkanLain">HAL LAINNYA</string>
     <string name="guest">Belum Memiliki Akun? Daftar Disini</string>
     <string name="logout">Logout</string>
     <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
