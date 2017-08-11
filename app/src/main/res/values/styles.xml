@@ -12,6 +12,10 @@
         <item name="android:windowLightStatusBar">true</item>
     </style>
 
+    <style name="AppLoginTheme" parent="Theme.AccountKit" >
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
 
 
     <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
